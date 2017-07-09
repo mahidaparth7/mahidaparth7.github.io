@@ -2,37 +2,37 @@ $(document).ready(function(){
 
   // MODAL
   var modalText = {
-    roambi: {
-      title: 'Roambi.com',
-      tag: 'BUSINESS ANALYTICS.',
-      detail: 'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
+    sunwardflag: {
+      title: 'Sunwardflag.com',
+      tag: 'E-Commerce',
+      detail: 'Sunwardflag is an ecommerce website that sales USA Flags.',
       link: 'http://www.roambi.com'
     },
-    walker: {
-      title: 'WalkerTracker',
-      tag: 'PERFORMANCE METRICS.',
-      detail: 'Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.',
+    nodecms: {
+      title: 'NodeCMS',
+      tag: 'CMS',
+      detail: 'CMS based on wordpress structure developed with node and angular.',
     },
-    powur: {
-      title: 'Powur.com',
+    skillout: {
+      title: 'Skillout',
       tag: 'MULTI-LEVEL MARKETING.',
-      detail: 'Powur is a multi-level marketing platform for lead generation, recruitment, and team building. Built with Ruby on Rails and Angular-UI. Makes use of Angular-material for front-end visuals. Features complex user tree heiarchy and commission system.',
+      detail: 'Skillout is the first online platform for the best dance teachers. Through our platform you can discover the best dance teachers near you and start dancing..',
       link: 'http://www.powur.com/with/42'
     },
-    mystand: {
-      title: 'MyStand',
-      tag: 'CROWD-FUNDED CHARITY.',
-      detail: 'MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.',
+    kihara: {
+      title: 'Kiharacosmetics.com',
+      tag: 'E-commerce.',
+      detail: 'E-commerce website to sell cosmetics products.',
     },
-    never: {
-      title: 'NeverSurrender',
-      tag: 'ALS AWARENESS.',
-      detail: 'NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.',
+    heatandplumb: {
+      title: 'Heatandplumb.com',
+      tag: 'E-commerce',
+      detail: 'Uk based E-commerce company that sells bathroom products.',
     },
-    themall: {
-      title: 'The Mall',
-      tag: 'PEER GUIDED SHOPPING.',
-      detail: 'The Mall is a place to follow the latest fashion purchases of your friends and favorite celebrities. Built with Node.js and Handlebars. Features the ability to import thousands of top brands products into one shopping site.',
+    chart: {
+      title: 'Finance Chart Wordpress Plugin',
+      tag: 'wordpress',
+      detail: 'Wordpress Plugin to extract data from crunchbase and display with interactive charts.',
     }
   };
 
@@ -119,7 +119,8 @@ $(document).ready(function(){
     $.each($('#modal .slide'), function(index, value) {
       $(this).css({
         background: "url('img/slides/" + id + '-' + index + ".jpg') center center/cover",
-        backgroundSize: 'cover'
+        backgroundSize: 'contain',
+        backgroundRepeat:'no-repeat'
       });
               
     });

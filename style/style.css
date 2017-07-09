@@ -668,7 +668,7 @@ section {
       width: 110px; }
     section:nth-of-type(5) .highlight {
       font-weight: 600;
-      color: #04C2C9; }
+      color: #a0a0a0; }
     section:nth-of-type(5) svg {
       position: absolute;
       top: 0;
@@ -986,3 +986,7 @@ footer {
     margin: 0 0 50px 20px; } }
 
 /*# sourceMappingURL=style.css.map */
+.me{
+  width:250px;
+  border-radius: 50%;
+}
