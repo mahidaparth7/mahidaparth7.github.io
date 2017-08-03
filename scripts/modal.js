@@ -17,7 +17,6 @@ $(document).ready(function(){
       title: 'Skillout',
       tag: 'MULTI-LEVEL MARKETING.',
       detail: 'Skillout is the first online platform for the best dance teachers. Through our platform you can discover the best dance teachers near you and start dancing..',
-      link: 'http://www.powur.com/with/42'
     },
     kihara: {
       title: 'Kiharacosmetics.com',
