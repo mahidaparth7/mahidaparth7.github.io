@@ -8,7 +8,7 @@ $(document).ready(function(){
       detail: 'Sunwardflag is an ecommerce website that sales USA Flags.',
       link: 'http://www.roambi.com'
     },
-    nodecms: {
+    nodeCMS: {
       title: 'NodeCMS',
       tag: 'CMS',
       detail: 'CMS based on wordpress structure developed with node and angular.',
