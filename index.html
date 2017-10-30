@@ -1,354 +1,307 @@
 <!DOCTYPE html>
 <html>
-   
-    <meta content="text/html;charset=utf-8" http-equiv="content-type"/>
 
-    <head>
-        <title>Parth Mahida - Web Developer
-        </title>
-        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" name="viewport">
-            <!-- HOSTED -->
-            <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800" rel="stylesheet" type="text/css">
-                <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet"/>
-                <!-- LOCAL -->
-                <link href="style/style.css" rel="stylesheet">
-                    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
-                        <!-- HOSTED -->
-                        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js">
-                        </script>
-                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js">
-                        </script>
-                        <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js">
-                        </script>
-                        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js">
-                        </script>
-                        <!-- LOCAL -->
-                        <script src="scripts/pt.min.js">
-                        </script>
-                        <script src="scripts/index.js">
-                        </script>
-                        <script src="scripts/modal.js">
-                        </script>
-						
-                    </link>
-                </link>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
 
-            </link>
-        </meta>
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<head>
+    <title>Parth Mahida - Web Developer
+    </title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- HOSTED -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800"
+        rel="stylesheet" type="text/css">
+    <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
+    <!-- LOCAL -->
+    <link href="style/style.css" rel="stylesheet">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <!-- HOSTED -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js">
+    </script>
+    <!-- LOCAL -->
+    <script src="scripts/pt.min.js">
+    </script>
+    <script src="scripts/index.js">
+    </script>
+    <script src="scripts/modal.js">
+    </script>
 
-		  ga('create', 'UA-76208003-2', 'auto');
-		  ga('send', 'pageview');
+    </link>
+    </link>
 
-		</script>
-    </head>
-    <body>
-        <div class="overflow-wrap">
-            <!-- HOME -->
-            <div class="modal-wrap flex">
-                <div class="mask">
+    </link>
+
+    </meta>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"></link>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-76208003-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+    <div class="overflow-wrap">
+        <!-- HOME -->
+        <div class="modal-wrap flex">
+            <div class="mask">
+            </div>
+            <div class="modal" id="modal">
+                <div class="carousel-wrap">
+                    <div class="window">
+                        <div id="carousel">
+                            <div class="slide">
+                            </div>
+                            <div class="slide">
+                            </div>
+                            <div class="slide">
+                            </div>
+                        </div>
+                        <i class="mdi mdi-chevron-left" id="prev">
+                        </i>
+                        <i class="mdi mdi-chevron-right" id="next">
+                        </i>
+                    </div>
                 </div>
-                <div class="modal" id="modal">
-                    <div class="carousel-wrap">
-                        <div class="window">
-                            <div id="carousel">
-                                <div class="slide">
-                                </div>
-                                <div class="slide">
-                                </div>
-                                <div class="slide">
-                                </div>
-                            </div>
-                            <i class="mdi mdi-chevron-left" id="prev">
-                            </i>
-                            <i class="mdi mdi-chevron-right" id="next">
-                            </i>
-                        </div>
+                <div class="info-box">
+                    <div class="title">
                     </div>
-                    <div class="info-box">
-                        <div class="title">
-                        </div>
-                        <div class="tag">
-                        </div>
-                        <div class="detail">
-                        </div>
-                        <a href="#" target="_blank">
-                            <div class="button">
-                                <i class="mdi mdi-open-in-new">
-                                </i>
-                                VIEW SITE
-                            </div>
-                        </a>
+                    <div class="tag">
                     </div>
-                    <i class="close mdi mdi-close">
+                    <div class="detail">
+                    </div>
+                    <a href="#" target="_blank">
+                        <div class="button">
+                            <i class="mdi mdi-open-in-new">
+                            </i>
+                            VIEW SITE
+                        </div>
+                    </a>
+                </div>
+                <i class="close mdi mdi-close">
+                </i>
+            </div>
+        </div>
+        <section class="flex height-fix" id="home">
+            <div class="canvas" id="pt">
+            </div>
+            <div class="flex">
+                <div class="text">
+                    Hello, I'm
+                    <span class="highlight">
+                        Parth Mahida
+                    </span>
+                    .
+                    <br> I'm a full-stack web developer.
+                    </br>
+                </div>
+                <div class="button page-link" dest="about">
+                    View my work
+                    <i class="mdi mdi-arrow-right">
                     </i>
                 </div>
-            </div>
-            <section class="flex height-fix" id="home">
-                <div class="canvas" id="pt">
-                </div>
-                <div class="flex">
-                    <div class="text">
-                        Hello, I'm
-                        <span class="highlight">
-                            Parth Mahida
-                        </span>
-                        .
-                        <br>
-                            I'm a full-stack web developer.
-                        </br>
-                    </div>
-                    <div class="button page-link" dest="about">
-                        View my work
-                        <i class="mdi mdi-arrow-right">
-                        </i>
-                    </div>
-                    <nav class="flex">
-                        <div class="link-wrap">
-                            <div class="active page-link" dest="home">
-                                home
-                            </div>
-                            <div class="page-link" dest="about">
-                                about
-                            </div>
-                            <div class="page-link" dest="portfolio">
-                                portfolio
-                            </div>
-                            <!--  <div class="page-link" dest="blog">blog</div> -->
-                            <div class="page-link" dest="contact">
-                                contact
-                            </div>
+                <nav class="flex">
+                    <div class="link-wrap">
+                        <div class="active page-link" dest="home">
+                            home
                         </div>
-                        <i class="mdi mdi-menu">
-                        </i>
-                    </nav>
+                        <div class="page-link" dest="about">
+                            about
+                        </div>
+                        <div class="page-link" dest="portfolio">
+                            portfolio
+                        </div>
+                        <!--  <div class="page-link" dest="blog">blog</div> -->
+                        <div class="page-link" dest="contact">
+                            contact
+                        </div>
+                    </div>
+                    <i class="mdi mdi-menu">
+                    </i>
+                </nav>
+            </div>
+        </section>
+        <!-- ABOUT -->
+        <section id="about">
+            <div class="container flex">
+                <div class="header waypoint" data-animation="slide-in-left">
+                    ABOUT
                 </div>
-            </section>
-            <!-- ABOUT -->
-            <section id="about">
-                <div class="container flex">
-                    <div class="header waypoint" data-animation="slide-in-left">
-                        ABOUT
-                    </div>
-                    <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s">
-                    </div>
-                    <div class="flex row label-wrap">
-                        <div class="flex row-gt-sm">
-                            <div class="flex bullet-wrap ">
-                                <div class="hex-wrap waypoint" data-animation="flip-in-x">
-                                    <div class="hexagon">
-                                        <i class="mdi mdi-sigma">
-                                        </i>
-                                    </div>
+                <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s">
+                </div>
+                <div class="flex row label-wrap">
+                    <div class="flex row-gt-sm">
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x">
+                                <div class="hexagon">
+                                    <i class="mdi mdi-sigma">
+                                    </i>
                                 </div>
-                                <div class="waypoint" data-animation="fade-in">
-                                    <!--  <div class="label bold">
+                            </div>
+                            <div class="waypoint" data-animation="fade-in">
+                                <!--  <div class="label bold">
                                         Fast
                                     </div> -->
-                                    <div class="label">
-                                        Great Problem Solving Skills
-                                    </div>
+                                <div class="label">
+                                    Great Problem Solving Skills
                                 </div>
                             </div>
-                            <div class="flex bullet-wrap ">
-                                <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
-                                    <div class="hexagon">
-                                        <i class="mdi mdi-cellphone-link">
-                                        </i>
-                                    </div>
+                        </div>
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
+                                <div class="hexagon">
+                                    <i class="mdi mdi-cellphone-link">
+                                    </i>
                                 </div>
-                                <div class="waypoint" data-animation="fade-in" data-delay=".2s">
-                                    <!--  <div class="label bold">
+                            </div>
+                            <div class="waypoint" data-animation="fade-in" data-delay=".2s">
+                                <!--  <div class="label bold">
                                         Responsive
                                     </div> -->
-                                    <div class="label">
-                                        Production Level Develoment
-                                    </div>
+                                <div class="label">
+                                    Production Level Develoment
                                 </div>
                             </div>
                         </div>
-                        <div class="flex row-gt-sm">
-                            <div class="flex bullet-wrap ">
-                                <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
-                                    <div class="hexagon">
-                                        <i class="mdi mdi-hangouts">
-                                        </i>
-                                    </div>
+                    </div>
+                    <div class="flex row-gt-sm">
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
+                                <div class="hexagon">
+                                    <i class="mdi mdi-hangouts">
+                                    </i>
                                 </div>
-                                <div class="waypoint" data-animation="fade-in" data-delay=".4s">
-                                    <!-- <div class="label bold">
+                            </div>
+                            <div class="waypoint" data-animation="fade-in" data-delay=".4s">
+                                <!-- <div class="label bold">
                                         Intuitive
                                     </div> -->
-                                    <div class="label">
-                                        Great Communication Skills
-                                    </div>
+                                <div class="label">
+                                    Great Communication Skills
                                 </div>
                             </div>
-                            <div class="flex bullet-wrap ">
-                                <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
-                                    <div class="hexagon">
-                                        <i class="mdi mdi-laptop-windows">
-                                        </i>
-                                    </div>
+                        </div>
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
+                                <div class="hexagon">
+                                    <i class="mdi mdi-laptop-windows">
+                                    </i>
                                 </div>
-                                <div class="waypoint" data-animation="fade-in" data-delay=".6s">
-                                    <!-- <div class="label bold">
+                            </div>
+                            <div class="waypoint" data-animation="fade-in" data-delay=".6s">
+                                <!-- <div class="label bold">
                                         Dynamic
                                     </div> -->
-                                    <div class="label">
-                                        Passionate About My work
-                                    </div>
+                                <div class="label">
+                                    Passionate About My work
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="skills-wrapper flex row-gt-sm">
-                        <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
-                            <img class="me" src="img/mahidaparth7.jpg">
-                                <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
-                                <div class="label bold">
-                                    Who's this guy?
-                                </div>
-                                <div>
-                                    I am a full stack developer living in India.
-                                    <br>
-                                        I have serious passion to solve complex problems and for reading which often leds me to write stuff going around in my mind.
-                                        <br>
-                                            <span class="page-link highlight" dest="contact">
-                                                Let's make something special.
-                                            </span>
-                                        </br>
-                                    </br>
-                                </div>
-                            </img>
+                </div>
+                <div class="skills-wrapper flex row-gt-sm">
+                    <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+                        <img class="me" src="img/mahidaparth7.jpg">
+                        <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+                        <div class="label bold">
+                            Who's this guy?
                         </div>
-                        <div class="flex flex-50-gt-sm waypoint bars-wrap" data-animation="slide-in-right">
-                            <div class="bar flex">
-                                <div class="bar fill" style="width:75%">
-                                    <div class="tag bold flex">
-                                        HTML/CSS
-                                    </div>
-                                </div>
-                                <span>
-                                    80%
-                                </span>
-                            </div>
-                            <div class="bar flex">
-                                <div class="bar fill" style="width:85%">
-                                    <div class="tag bold flex">
-                                        Python
-                                    </div>
-                                </div>
-                                <span>
-                                    60%
-                                </span>
-                            </div>
-                            <div class="bar flex">
-                                <div class="bar fill" style="width:80%">
-                                    <div class="tag bold flex">
-                                        JavaScript
-                                    </div>
-                                </div>
-                                <span>
-                                    80%
-                                </span>
-                            </div>
-                            <div class="bar flex">
-                                <div class="bar fill" style="width:65%">
-                                    <div class="tag bold flex">
-                                        Angular
-                                    </div>
-                                </div>
-                                <span>
-                                    70%
-                                </span>
-                            </div>
-                            <div class="bar flex">
-                                <div class="bar fill" style="width:60%">
-                                    <div class="tag bold flex">
-                                        Node.js
-                                    </div>
-                                </div>
-                                <span>
-                                    60%
-                                </span>
-                            </div>
-                            <div class="bar flex">
-                                <div class="bar fill" style="width:90%">
-                                    <div class="tag bold flex">
-                                        Meteor
-                                    </div>
-                                </div>
-                                <span>
-                                    90%
-                                </span>
-                            </div>
-                            <div class="bar flex">
-                                <div class="bar fill" style="width:75%">
-                                    <div class="tag bold flex">
-                                        MongoDB
-                                    </div>
-                                </div>
-                                <span>
-                                    75%
-                                </span>
-                            </div>
-                            <div class="bar flex">
-                                <div class="bar fill" style="width:80%">
-                                    <div class="tag bold flex">
-                                        PHP
-                                    </div>
-                                </div>
-                                <span>
-                                    80%
-                                </span>
-                            </div>
-                            <div class="bar flex">
-                                <div class="bar fill" style="width:75%">
-                                    <div class="tag bold flex">
-                                        MYSQL
-                                    </div>
-                                </div>
-                                <span>
-                                    75%
-                                </span>
-                            </div>
-                            <div class="bar flex">
-                                <div class="bar fill" style="width:90%">
-                                    <div class="tag bold flex">
-                                        Wordpress
-                                    </div>
-                                </div>
-                                <span>
-                                    90%
-                                </span>
-                            </div>
-                            <div class="bar flex">
-                                <div class="bar fill" style="width:55%">
-                                    <div class="tag bold flex">
-                                        UI Design
-                                    </div>
-                                </div>
-                                <span>
-                                    50%
-                                </span>
-                            </div>
+                        <div>
+                            I am a full stack developer living in India.
+                            <br> I have serious passion to solve complex problems and for reading which often leds me to write
+                            stuff going around in my mind.
+                            <br>
+                            <span class="page-link highlight" dest="contact">
+                                Let's make something special.
+                            </span>
+                            </br>
+                            </br>
+                        </div>
+                        </img>
+                    </div>
+                    <div class="flex flex-50-gt-sm" data-animation="slide-in-right">
+                        <div class="flex-30-gt-sm">
+                            <i class="devicon devicon-git-plain colored"></i>
+                        </div>
+                        <div class="flex-30-gt-sm">
+                            <i class="devicon  devicon-angularjs-plain colored"></i>
+                        </div>
+                        <div class="flex-30-gt-sm">
+                            <i class="devicon  devicon-sass-plain colored"></i>
+                        </div>
+                        <div class="flex-30-gt-sm">
+                            <i class="devicon  devicon-gulp-plain colored"></i>
+                        </div>
+                        <div class="flex-30-gt-sm">
+                            <i class="devicon  devicon-meteor-plain colored"></i>
+                        </div>
+                        <div class="flex-30-gt-sm">
+                            <i class="devicon  devicon-mongodb-plain colored"></i>
+                        </div>
+                        <div class="flex-30-gt-sm">
+                            <i class="devicon  devicon-nodejs-plain colored"></i>
+                        </div>
+                        <div class="flex-30-gt-sm">
+                            <i class="devicon  devicon-typescript-plain colored"></i>
+                        </div>
+                        <div class="flex-30-gt-sm">
+                            <i class="devicon  devicon-python-plain colored"></i>
+                        </div>
+                        <div class="flex-30-gt-sm">
+                            <i class="devicon  devicon-php-plain colored"></i>
+                        </div>
+                        <div class="flex-30-gt-sm">
+                            <i class="devicon  devicon-laravel-plain colored"></i>
+                        </div>
+                        <div class="flex-30-gt-sm">
+                            <i class="devicon  devicon-wordpress-plain colored"></i>
+                        </div>
+                        <div class="flex-30-gt-sm">
+                            <i class="devicon  devicon-mysql-plain colored"></i>
+                        </div>
+
+                        <div class="flex-30-gt-sm">
+                            <i class="devicon  devicon-amazonwebservices-plain colored"></i>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- PORTFOLIO -->
-            <section class="flex" id="portfolio">
-                <div class="header waypoint" data-animation="slide-in-right">
-                    PROJECTS
+            </div>
+        </section>
+        <!-- PORTFOLIO -->
+        <section class="flex" id="portfolio">
+            <div class="header waypoint" data-animation="slide-in-right">
+                PROJECTS
+            </div>
+            <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s">
+            </div>
+            <div class="filter-wrap waypoint" data-animation="fade-in">
+                <div class="flex row">
+                    <div class="filter" data-filter="all">
+                        ALL
+                    </div>
+                    <div class="filter" data-filter=".node">
+                        NODE/METEOR
+                    </div>
+                    <div class="filter" data-filter=".php">
+                        PHP
+                    </div>
+                    <div class="filter" data-filter=".wordpress">
+                        WORDPRESS
+                    </div>
                 </div>
-                <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s">
-                </div>
-                <div class="filter-wrap waypoint" data-animation="fade-in">
+                <div class="float-bar">
                     <div class="flex row">
                         <div class="filter" data-filter="all">
                             ALL
@@ -363,241 +316,226 @@
                             WORDPRESS
                         </div>
                     </div>
-                    <div class="float-bar">
-                        <div class="flex row">
-                            <div class="filter" data-filter="all">
-                                ALL
+                </div>
+            </div>
+            <div class="container flex row wrap waypoint" id="gallery">
+                <div class="mix wordpress" data-my-order="1">
+                    <div>
+                        <div class="card">
+                        </div>
+                        <div class="text">
+                            <div class="bold">
+                                Sunwardflag
                             </div>
-                            <div class="filter" data-filter=".node">
-                                NODE/METEOR
+                            <span class="highlight">
+                                Wordpress
+                            </span>
+                        </div>
+                        <div class="button" id="sunwardflag">
+                            LEARN MORE
+                        </div>
+                    </div>
+                </div>
+                <div class="mix node" data-my-order="1">
+                    <div>
+                        <div class="card">
+                        </div>
+                        <div class="text">
+                            <div class="bold">
+                                NODE CMS
                             </div>
-                            <div class="filter" data-filter=".php">
-                                PHP
+                            <span class="highlight">
+                                NODE
+                            </span>
+                        </div>
+                        <div class="button" id="nodecms">
+                            LEARN MORE
+                        </div>
+                    </div>
+                </div>
+                <div class="mix node" data-my-order="1">
+                    <div>
+                        <div class="card">
+                        </div>
+                        <div class="text">
+                            <div class="bold">
+                                SKILLOUT
                             </div>
-                            <div class="filter" data-filter=".wordpress">
+                            <span class="highlight">
+                                METEOR
+                            </span>
+                        </div>
+                        <div class="button" id="skillout">
+                            LEARN MORE
+                        </div>
+                    </div>
+                </div>
+                <div class="mix wordpress" data-my-order="1">
+                    <div>
+                        <div class="card">
+                        </div>
+                        <div class="text">
+                            <div class="bold">
+                                KiharaCosmetics
+                            </div>
+                            <span class="highlight">
                                 WORDPRESS
-                            </div>
+                            </span>
+                        </div>
+                        <div class="button" id="kihara">
+                            LEARN MORE
                         </div>
                     </div>
                 </div>
-                <div class="container flex row wrap waypoint" id="gallery">
-                    <div class="mix wordpress" data-my-order="1">
-                        <div>
-                            <div class="card">
-                            </div>
-                            <div class="text">
-                                <div class="bold">
-                                    Sunwardflag
-                                </div>
-                                <span class="highlight">
-                                    Wordpress
-                                </span>
-                            </div>
-                            <div class="button" id="sunwardflag">
-                                LEARN MORE
-                            </div>
+                <div class="mix php" data-my-order="1">
+                    <div>
+                        <div class="card">
                         </div>
-                    </div>
-                    <div class="mix node" data-my-order="1">
-                        <div>
-                            <div class="card">
+                        <div class="text">
+                            <div class="bold">
+                                Heatandplumb
                             </div>
-                            <div class="text">
-                                <div class="bold">
-                                    NODE CMS
-                                </div>
-                                <span class="highlight">
-                                    NODE
-                                </span>
-                            </div>
-                            <div class="button" id="nodecms">
-                                LEARN MORE
-                            </div>
+                            <span class="highlight">
+                                PHP + jQuery
+                            </span>
                         </div>
-                    </div>
-                    <div class="mix node" data-my-order="1">
-                        <div>
-                            <div class="card">
-                            </div>
-                            <div class="text">
-                                <div class="bold">
-                                   SKILLOUT
-                                </div>
-                                <span class="highlight">
-                                    METEOR
-                                </span>
-                            </div>
-                            <div class="button" id="skillout">
-                                LEARN MORE
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mix wordpress" data-my-order="1">
-                        <div>
-                            <div class="card">
-                            </div>
-                            <div class="text">
-                                <div class="bold">
-                                    KiharaCosmetics
-                                </div>
-                                <span class="highlight">
-                                    WORDPRESS
-                                </span>
-                            </div>
-                            <div class="button" id="kihara">
-                                LEARN MORE
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mix php" data-my-order="1">
-                        <div>
-                            <div class="card">
-                            </div>
-                            <div class="text">
-                                <div class="bold">
-                                    Heatandplumb
-                                </div>
-                                <span class="highlight">
-                                    PHP + jQuery
-                                </span>
-                            </div>
-                            <div class="button" id="heatandplumb">
-                                LEARN MORE
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mix wordpress" data-my-order="1">
-                        <div>
-                            <div class="card">
-                            </div>
-                            <div class="text">
-                                <div class="bold">
-                                    Chart Wordpress Plugin
-                                </div>
-                                <span class="highlight">
-                                    Wordpress
-                                </span>
-                            </div>
-                            <div class="button" id="chart">
-                                LEARN MORE
-                            </div>
+                        <div class="button" id="heatandplumb">
+                            LEARN MORE
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- BLOG -->
-            <section id="blog" style="display:none;">
-                <div class="container flex">
-                    <div class="header waypoint" data-animation="slide-in-left">
-                        BLOG
-                    </div>
-                    <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s">
-                    </div>
-                    <div class="flex row wrap">
-                        <div class="flex row-gt-sm">
-                            <a href="http://blog.eyecuelab.com/2016/04/29/breaking-your-coders-block/" target="_blank">
-                                <div class="blog-wrap waypoint" data-animation="fade-in">
-                                    <div class="fade-wrap">
-                                        <div class="thumb" id="thumb-1">
-                                        </div>
-                                        <div class="label bold">
-                                            Breaking Your Coder's Block
-                                        </div>
-                                        <div class="date">
-                                            APRIL 29, 2016
-                                        </div>
-                                        <div class="bar">
-                                        </div>
-                                        <div class="text">
-                                            At one time or another, as a developer, we've all found ourselves hopelessly stuck on a coding issue...
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="http://blog.eyecuelab.com/2015/03/19/this-is-your-brain-on-caffeine/" target="_blank">
-                                <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".2s">
-                                    <div class="fade-wrap">
-                                        <div class="thumb" id="thumb-2">
-                                        </div>
-                                        <div class="label bold">
-                                            !Awake: This is Your Brain on Caffeine
-                                        </div>
-                                        <div class="date">
-                                            MARCH 19, 2015
-                                        </div>
-                                        <div class="bar">
-                                        </div>
-                                        <div class="text">
-                                            If there's one thing I can truly claim to be an expert on, it's staying awake. For five years I struggled to stay employed...
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
+                <div class="mix wordpress" data-my-order="1">
+                    <div>
+                        <div class="card">
                         </div>
-                        <div class="flex row-gt-sm">
-                            <a href="http://blog.eyecuelab.com/2015/03/04/getting-a-handle-on-handlebars/" target="_blank">
-                                <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".4s">
-                                    <div class="fade-wrap">
-                                        <div class="thumb" id="thumb-3">
-                                        </div>
-                                        <div class="label bold">
-                                            Getting a Handle on Handlebars
-                                        </div>
-                                        <div class="date">
-                                            MARCH 04, 2015
-                                        </div>
-                                        <div class="bar">
-                                        </div>
-                                        <div class="text">
-                                            Here at EyeCue Lab we render most of our data-laden HTML pages in Handlebar templates...
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="http://blog.eyecuelab.com/2015/02/23/essential_extensions/" target="_blank">
-                                <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".6s">
-                                    <div class="fade-wrap">
-                                        <div class="thumb" id="thumb-4">
-                                        </div>
-                                        <div class="label bold">
-                                            5 Extensions for Your Chrome Toolbelt
-                                        </div>
-                                        <div class="date">
-                                            FEBRUARY 23, 2015
-                                        </div>
-                                        <div class="bar">
-                                        </div>
-                                        <div class="text">
-                                            If you're not using Google Chrome as a front-end web developer, you're missing out. Not only is Chrome the...
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
+                        <div class="text">
+                            <div class="bold">
+                                Chart Wordpress Plugin
+                            </div>
+                            <span class="highlight">
+                                Wordpress
+                            </span>
+                        </div>
+                        <div class="button" id="chart">
+                            LEARN MORE
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- CONTACT -->
-            <section id="contact">
-                <svg class="svgcolor-light" height="75" preserveaspectratio="none" version="1.1" viewbox="0 0 100 102" width="100%" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white">
-                    </path>
-                </svg>
-                <div class="container flex">
-                    <div class="header waypoint" data-animation="slide-in-left">
-                        CONTACT
+            </div>
+        </section>
+        <!-- BLOG -->
+        <section id="blog" style="display:none;">
+            <div class="container flex">
+                <div class="header waypoint" data-animation="slide-in-left">
+                    BLOG
+                </div>
+                <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s">
+                </div>
+                <div class="flex row wrap">
+                    <div class="flex row-gt-sm">
+                        <a href="http://blog.eyecuelab.com/2016/04/29/breaking-your-coders-block/" target="_blank">
+                            <div class="blog-wrap waypoint" data-animation="fade-in">
+                                <div class="fade-wrap">
+                                    <div class="thumb" id="thumb-1">
+                                    </div>
+                                    <div class="label bold">
+                                        Breaking Your Coder's Block
+                                    </div>
+                                    <div class="date">
+                                        APRIL 29, 2016
+                                    </div>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="text">
+                                        At one time or another, as a developer, we've all found ourselves hopelessly stuck on a coding issue...
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="http://blog.eyecuelab.com/2015/03/19/this-is-your-brain-on-caffeine/" target="_blank">
+                            <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".2s">
+                                <div class="fade-wrap">
+                                    <div class="thumb" id="thumb-2">
+                                    </div>
+                                    <div class="label bold">
+                                        !Awake: This is Your Brain on Caffeine
+                                    </div>
+                                    <div class="date">
+                                        MARCH 19, 2015
+                                    </div>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="text">
+                                        If there's one thing I can truly claim to be an expert on, it's staying awake. For five years I struggled to stay employed...
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s">
+                    <div class="flex row-gt-sm">
+                        <a href="http://blog.eyecuelab.com/2015/03/04/getting-a-handle-on-handlebars/" target="_blank">
+                            <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".4s">
+                                <div class="fade-wrap">
+                                    <div class="thumb" id="thumb-3">
+                                    </div>
+                                    <div class="label bold">
+                                        Getting a Handle on Handlebars
+                                    </div>
+                                    <div class="date">
+                                        MARCH 04, 2015
+                                    </div>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="text">
+                                        Here at EyeCue Lab we render most of our data-laden HTML pages in Handlebar templates...
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="http://blog.eyecuelab.com/2015/02/23/essential_extensions/" target="_blank">
+                            <div class="blog-wrap waypoint" data-animation="fade-in" data-delay=".6s">
+                                <div class="fade-wrap">
+                                    <div class="thumb" id="thumb-4">
+                                    </div>
+                                    <div class="label bold">
+                                        5 Extensions for Your Chrome Toolbelt
+                                    </div>
+                                    <div class="date">
+                                        FEBRUARY 23, 2015
+                                    </div>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="text">
+                                        If you're not using Google Chrome as a front-end web developer, you're missing out. Not only is Chrome the...
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">
-                        <i class="mdi mdi-email">
-                        </i>
-                        |
-                        <i class="mdi mdi-skype">
-                        </i>
-                        mahidaparth7@gmail.com
-                    </div>
-                    <!--  <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form">
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT -->
+        <section id="contact">
+            <svg class="svgcolor-light" height="75" preserveaspectratio="none" version="1.1" viewbox="0 0 100 102" width="100%" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white">
+                </path>
+            </svg>
+            <div class="container flex">
+                <div class="header waypoint" data-animation="slide-in-left">
+                    CONTACT
+                </div>
+                <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s">
+                </div>
+                <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">
+                    <i class="mdi mdi-email">
+                    </i>
+                    |
+                    <i class="mdi mdi-skype">
+                    </i>
+                    mahidaparth7@gmail.com
+                </div>
+                <!--  <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form">
                         <input name="name" placeholder="Name" required="" type="text">
                             <input name="email" placeholder="Enter email" required="" type="email">
                                 <textarea name="message" placeholder="Your Message" type="text">
@@ -614,72 +552,73 @@
                             </input>
                         </input>
                     </form> -->
-                </div>
-            </section>
-            <footer>
-                <i class="mdi mdi-chevron-double-up page-link" dest="home">
-                </i>
-                <div class="icon-wrap flex row">
-                    <a href="https://www.linkedin.com/in/parth-mahida-20976388/">
-                        <div class="flex icon" id="icon-2">
-                            <i class="mdi mdi-linkedin">
-                            </i>
-                        </div>
-                    </a>
-                    <a href="https://www.facebook.com/parth.mahida.7">
-                        <div class="flex icon" id="icon-3">
-                            <i class="mdi mdi-facebook">
-                            </i>
-                        </div>
-                    </a>
-                    <a href="https://stackoverflow.com/users/4540727/parth-mahida">
-                        <div class="flex icon" id="icon-4">
-                            <i class="mdi mdi-stackoverflow">
-                            </i>
-                        </div>
-                    </a>
-                    <a href="https://github.com/mahidaparth7">
-                        <div class="flex icon" id="icon-5">
-                            <i class="mdi mdi-github-circle">
-                            </i>
-                        </div>
-                    </a>
-                </div>
-            </footer>
-        </div>
-        <div id="preload">
-            <img src="img/me.png"/>
-            <img src="img/filler.html"/>
-            <img src="img/slides/sunwardflag-0.jpg"/>
-            <img src="img/slides/nodeCMS-0.jpg"/>
-            <img src="img/slides/skillout-0.jpg"/>
-            <img src="img/slides/kihara-0.jpg"/>
-            <img src="img/slides/heatandplumb-0.jpg"/>
-            <img src="img/slides/chart-0.jpg"/>
-            <img src="img/blog-1.jpg"/>
-            <img src="img/blog-2.jpg"/>
-            <img src="img/blog-3.jpg"/>
-            <img src="img/blog-4.jpg"/>
-            <img src="img/slides/mystand-0.jpg"/>
-            <img src="img/slides/mystand-1.jpg"/>
-            <img src="img/slides/mystand-2.jpg"/>
-            <img src="img/slides/nodeCMS-0.jpg"/>
-            <img src="img/slides/nodeCMS-1.jpg"/>
-            <img src="img/slides/nodeCMS-2.jpg"/>
-            <img src="img/slides/heatandplumb-0.jpg"/>
-            <img src="img/slides/heatandplumb-1.jpg"/>
-            <img src="img/slides/heatandplumb-2.jpg"/>
-            <img src="img/slides/sunwardflag-0.jpg"/>
-            <img src="img/slides/sunwardflag-1.jpg"/>
-            <img src="img/slides/sunwardflag-2.jpg"/>
-            <img src="img/slides/skillout-0.jpg"/>
-            <img src="img/slides/skillout-1.jpg"/>
-            <img src="img/slides/skillout-2.jpg"/>
-            <img src="img/slides/chart-0.jpg"/>
-            <img src="img/slides/chart-1.jpg"/>
-            <img src="img/slides/chart-2.jpg"/>
-        </div>
-    </body>
+            </div>
+        </section>
+        <footer>
+            <i class="mdi mdi-chevron-double-up page-link" dest="home">
+            </i>
+            <div class="icon-wrap flex row">
+                <a href="https://www.linkedin.com/in/parth-mahida-20976388/">
+                    <div class="flex icon" id="icon-2">
+                        <i class="mdi mdi-linkedin">
+                        </i>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/parth.mahida.7">
+                    <div class="flex icon" id="icon-3">
+                        <i class="mdi mdi-facebook">
+                        </i>
+                    </div>
+                </a>
+                <a href="https://stackoverflow.com/users/4540727/parth-mahida">
+                    <div class="flex icon" id="icon-4">
+                        <i class="mdi mdi-stackoverflow">
+                        </i>
+                    </div>
+                </a>
+                <a href="https://github.com/mahidaparth7">
+                    <div class="flex icon" id="icon-5">
+                        <i class="mdi mdi-github-circle">
+                        </i>
+                    </div>
+                </a>
+            </div>
+        </footer>
+    </div>
+    <div id="preload">
+        <img src="img/me.png" />
+        <img src="img/filler.html" />
+        <img src="img/slides/sunwardflag-0.jpg" />
+        <img src="img/slides/nodeCMS-0.jpg" />
+        <img src="img/slides/skillout-0.jpg" />
+        <img src="img/slides/kihara-0.jpg" />
+        <img src="img/slides/heatandplumb-0.jpg" />
+        <img src="img/slides/chart-0.jpg" />
+        <img src="img/blog-1.jpg" />
+        <img src="img/blog-2.jpg" />
+        <img src="img/blog-3.jpg" />
+        <img src="img/blog-4.jpg" />
+        <img src="img/slides/mystand-0.jpg" />
+        <img src="img/slides/mystand-1.jpg" />
+        <img src="img/slides/mystand-2.jpg" />
+        <img src="img/slides/nodeCMS-0.jpg" />
+        <img src="img/slides/nodeCMS-1.jpg" />
+        <img src="img/slides/nodeCMS-2.jpg" />
+        <img src="img/slides/heatandplumb-0.jpg" />
+        <img src="img/slides/heatandplumb-1.jpg" />
+        <img src="img/slides/heatandplumb-2.jpg" />
+        <img src="img/slides/sunwardflag-0.jpg" />
+        <img src="img/slides/sunwardflag-1.jpg" />
+        <img src="img/slides/sunwardflag-2.jpg" />
+        <img src="img/slides/skillout-0.jpg" />
+        <img src="img/slides/skillout-1.jpg" />
+        <img src="img/slides/skillout-2.jpg" />
+        <img src="img/slides/chart-0.jpg" />
+        <img src="img/slides/chart-1.jpg" />
+        <img src="img/slides/chart-2.jpg" />
+    </div>
+</body>
+
 </html>
 <script src="scripts/canvas.js">
 </script>

@@ -1407,3 +1407,12 @@ footer .footnote .highlight {
     width: 250px;
     border-radius: 50%;
 }
+
+.devicon {
+    font-size: 6em;
+}
+.flex-30-gt-sm{
+    padding:20px 0px;
+    width:30%;
+    display: inline-block;
+}
